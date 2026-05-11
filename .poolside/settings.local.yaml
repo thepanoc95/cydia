@@ -1,0 +1,21 @@
+tools:
+    shell:
+        allow:
+            - file *
+            - ls *
+            - cd *
+            - ar *
+            - tar *
+            - cat *
+            - rm *
+            - git checkout *
+            - dpkg-deb *
+            - which dpkg-scanpackages
+            - apt-cache search *
+            - bzip2 *
+            - md5sum Packages *
+            - sha256sum Packages *
+paths:
+    allow:
+        - path: /home/oaky/Projects/cydiarepo/**
+          write: true

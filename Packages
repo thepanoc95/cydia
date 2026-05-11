@@ -1,10 +1,12 @@
-Package: iphone-gcc.libgcc
-Version: Unknown
-Section: Development
-Maintainer: The GNU Project
-Depends: firmware (>6.0)
+Package: fake-libgcc
+Version: 1.0
+Section: System
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Depends: firmware (>= 6.0)
 Architecture: iphoneos-arm
 Filename: ./debs/libgcc.deb
-Size: 720
-Description: libgcc
-Name: libgcc
+Size: 724
+MD5sum: 8d42ac1c07587d57bfb7e1d24c15e2ae
+SHA1: a8a9f032e8428bc7046c750545237f9f890fa237
+SHA256: 994a436927316264b49a99158ea3c1a88836d87e6ba3e86b64ff4f90eb8998f2
+Description: Fake libgcc package and symlinks so that GCC for 2.x will work

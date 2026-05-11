@@ -1,22 +1,123 @@
-<a class="cydia-btn"
-   href="cydia://url/https://cydia.saurik.com/api/share#?source=https://thepanoc95.github.io/cydia/">
-   Add to Cydia
-</a>
-
-<style>
-.cydia-btn {
-    display: inline-block;
-    padding: 12px 20px;
-    background: #111;
-    color: white;
-    text-decoration: none;
-    border-radius: 12px;
-    font-family: sans-serif;
-    font-weight: bold;
-    transition: 0.2s;
-}
-
-.cydia-btn:hover {
-    background: #333;
-}
-</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Panoc95's Cydia Repo</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            background: #c0c0c0;
+            font-family: "Microsoft Sans Serif", "MS Sans Serif", Arial, sans-serif;
+            font-size: 11px;
+            margin: 0;
+            padding: 20px;
+            color: #000;
+        }
+        
+        .window {
+            background: #c0c0c0;
+            border: 2px outset #c0c0c0;
+            padding: 2px;
+            margin-bottom: 15px;
+            width: 500px;
+        }
+        
+        .window-title {
+            background: #000080;
+            color: white;
+            padding: 3px 5px;
+            font-weight: bold;
+            font-size: 11px;
+        }
+        
+        .window-content {
+            padding: 15px;
+            background: #c0c0c0;
+        }
+        
+        .button {
+            background: #c0c0c0;
+            border: 2px outset #c0c0c0;
+            padding: 5px 15px;
+            font-family: "Microsoft Sans Serif", Arial, sans-serif;
+            font-size: 11px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 2px;
+            min-width: 75px;
+            text-align: center;
+        }
+        
+        .button:active {
+            border: 2px inset #c0c0c0;
+        }
+        
+        h1 {
+            font-size: 14px;
+            font-weight: bold;
+            margin: 0 0 10px 0;
+        }
+        
+        p {
+            margin: 5px 0;
+        }
+        
+        .desktop-icon {
+            text-align: center;
+            display: inline-block;
+            width: 75px;
+            margin: 10px;
+        }
+        
+        .icon {
+            width: 32px;
+            height: 32px;
+            background: #000080;
+            margin: 0 auto 5px auto;
+            border: 2px outset #c0c0c0;
+        }
+        
+        .cydia-link {
+            display: inline-block;
+            margin-top: 15px;
+        }
+        
+        .status-bar {
+            background: #c0c0c0;
+            border: 2px inset #c0c0c0;
+            padding: 3px 5px;
+            font-size: 11px;
+            margin-top: 10px;
+        }
+        
+        hr {
+            border: none;
+            border-top: 1px solid #808080;
+            border-bottom: 1px solid #ffffff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="window">
+        <div class="window-title">Panoc95's Cydia Repo</div>
+        <div class="window-content">
+            <p>Welcome to Panoc95's Cydia Repository!</p>
+            <hr>
+            <p>This repository contains iOS packages for jailbroken devices.</p>
+            <p><b>Available Packages:</b></p>
+            <ul style="margin: 5px 0; padding-left: 20px;">
+                <li>fake-libgcc - Fake libgcc package and symlinks so that GCC for 2.x will work</li>
+            </ul>
+            <hr>
+            <p>Add this repo to Cydia:</p>
+            <div class="cydia-link">
+                <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://thepanoc95.github.io/cydia/" class="button">Add to Cydia</a>
+            </div>
+            <p style="margin-top: 10px; font-size: 10px;">Or manually add this URL in Cydia:</p>
+            <p style="font-family: monospace; background: #fff; padding: 5px; border: 2px inset #c0c0c0;">https://thepanoc95.github.io/cydia/</p>
+        </div>
+    </div>
+    
+    <div class="status-bar">Ready</div>
+</body>
+</html>
