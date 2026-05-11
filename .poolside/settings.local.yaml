@@ -15,6 +15,10 @@ tools:
             - bzip2 *
             - md5sum Packages *
             - sha256sum Packages *
+            - md5sum *
+            - sha1sum *
+            - sha256sum *
+            - find *
 paths:
     allow:
         - path: /home/oaky/Projects/cydiarepo/**
