@@ -1,0 +1,10 @@
+Package: iphone-gcc.libgcc
+Version: Unknown
+Section: Development
+Maintainer: The GNU Project
+Depends: firmware (>6.0)
+Architecture: iphoneos-arm
+Filename: ./debs/libgcc.deb
+Size: 720
+Description: libgcc
+Name: libgcc
